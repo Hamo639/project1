@@ -1,0 +1,243 @@
+/*1section*/
+
+body{
+    overflow-x: hidden;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.b{
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+.b input[type=search]{
+    border: gray;
+    outline:  gray;
+    position: relative;
+    left: 10px;
+    width: 100px;
+    transition: all 1s ease;
+    margin-left: 5px;   
+}
+.b input[type=search]:focus{
+border: none;
+outline: none; 
+margin-left:0;  
+}
+.c p{
+    border: 3px solid black;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    width: 100%;
+    color: gray;   
+}
+.d i{
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    right: 40px;
+    color: gray;
+}
+.d i:hover{
+    color: black;
+}
+/* end1section*/
+hr{
+    margin-top: 30px;
+}
+/* 2setion*/
+.e{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.f p:hover{
+    color: blueviolet;
+}
+
+.f select{
+    border: solid white;
+    outline: solid white;
+    background-color: white;
+    color: gray;
+}
+.f select:hover{
+    color: blueviolet;
+}
+.f a{
+    color: gray;
+}
+select:optional{font-weight: bold;
+}
+/*end 2section*/
+.lk h3{
+    margin-left: 50px;
+    padding-top: 10px;
+    }
+ /*section3*/   
+
+.q{
+    display: flex;
+    justify-content: center;
+}
+.r {
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.s{
+    text-align: left;
+    padding-left: 70px;
+padding-top: 100px;  
+line-height: 5px;
+}
+.s p{
+    line-height: 30px;
+    color: gray;
+}
+.hamo5 {
+    
+background-color: white;
+color: black;
+width: 40px;
+height: 35px;
+border: none ;
+outline: 2px solid blueviolet ;
+margin-right: -3px;
+}
+
+.hamo5:hover{
+    transform: scale(0.9);
+    background-color: rgb(88, 14, 157);
+    
+}
+.s input{
+    height: 30px;
+}
+.hamo6{
+    background-color: rgb(137, 28, 239);
+color: rgb(226, 226, 226);
+width: 135px;
+height: 35px;
+border: none ;
+outline:none ;
+transform: scale(1.0);
+touch-action: inherit;
+
+    margin-top: 40px;
+    cursor: pointer;
+}
+.hamo6:hover{
+    transform: scale(1.1);
+    background-color: rgb(88, 14, 157);
+cursor: pointer;}
+
+/*end section3*/ 
+/*section4*/
+.o {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 90px;
+
+ 
+}
+.p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.p img{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    
+    background-color: white;
+}
+.hamo2{
+    position: absolute;
+    left: 600px;
+    bottom: -300px;
+    z-index: 1;
+    
+}
+.hamo2 hr{
+    background-color: blueviolet;
+    height: 2px;
+    
+}
+.hamo4{
+    background-color: white;
+    margin-right: 20px;
+}
+
+.hamo3 h1{
+    position: relative;
+    left: 59%;
+    top: 80px;
+}
+.s p{
+    margin-top: -20px;
+    text-align: left;
+}
+ /*section4*/   
+/*1fotter*/
+.t{
+    display: flex;
+    justify-content: space-around;
+
+}
+.t ul li{
+    list-style-type: none;
+}
+.w{
+    text-align: center; 
+}
+
+.v input{
+height: 35px;
+width: 240px;
+position: absolute;
+}
+.v button{
+    position: relative;
+    top: 2.5px;
+    left: 130px;
+    background-color: rgb(137, 28, 239);
+    color: rgb(226, 226, 226);
+    width: 115px;
+    height: 35px;
+    border: none ;
+    outline:none ;
+    transform: scale(1.0);
+    touch-action: inherit;}
+    .v button:hover{
+        transform: scale(1.1);
+        background-color: rgb(88, 14, 157);
+        
+    }
+    .v i{
+        margin-right: 15px;
+    }
+    /*end section7*/
+    /*section 8*/
+    
+    .y p{
+        text-align: center;
+       margin-bottom: 60px;
+    }
+  

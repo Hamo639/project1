@@ -1,0 +1,248 @@
+/*1section*/
+.a{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.b{
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+.b input[type=search]{
+    border: gray;
+    outline:  gray;
+    position: relative;
+    left: 10px;
+    width: 100px;
+    transition: all 1s ease;
+    margin-left: 5px;   
+}
+.b input[type=search]:focus{
+border: none;
+outline: none; 
+margin-left:0;  
+}
+.c p{
+    border: 3px solid black;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    width: 100%;
+    color: gray;   
+}
+.d i{
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    right: 40px;
+    color: gray;
+}
+.d i:hover{
+    color: black;
+}
+/* end1section*/
+hr{
+    margin-top: 30px;
+}
+/* 2setion*/
+.e{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    align-items: baseline;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.f p:hover{
+    color: blueviolet;
+}
+
+.f select{
+    border: solid white;
+    outline: solid white;
+    background-color: white;
+    color: gray;
+}
+.f select:hover{
+    color: blueviolet;
+}
+.f a{
+    color: gray;
+}
+select:optional{font-weight: bold;
+}
+/*end 2section*/
+/* section3 */
+.parent1{
+    margin-top: 40px;
+   }
+.parent{
+    display: flex;
+
+}
+.parent .building-info{
+    padding-left: 30px;
+    width:45% ;
+}
+form{
+    padding: 50px;
+    border: 2px solid gray;
+    margin-top: 30px;
+}
+/* div class coupon-order */
+.coupon-order input{
+    height: 43px;
+    width: 400px;
+    position: absolute;
+    }
+    .coupon-order button{
+        position: relative;
+        top: 0;
+        left: 300px;
+        background-color: rgb(137, 28, 239);
+        color: rgb(226, 226, 226);
+        width: 115px;
+        height: 43px;
+        border: none ;
+        outline:none ;
+        transform: scale(1.0);
+        touch-action: inherit;}
+        .coupon-order button:hover{
+            transform: scale(1.1);
+            background-color: rgb(88, 14, 157);
+            
+        }
+       .twocoupon-code{
+        border: 2px solid gray;
+        margin-left: 100px;
+        width: 500px;
+        height: 180px;
+        padding-top: 45px;
+        padding-left: 15px;
+        margin-top: 30px;
+       }
+       .h2-coupon-code{
+margin-left: 100px;
+       }
+       /*end div class coupon-order */
+/* table */
+table{
+    
+    margin-top: px;
+    margin-left: 40px;
+width: 88%;
+line-height: 50px;}
+tr{
+    border-top: 1px solid gray;
+}
+
+.tablenone{
+    border: none;
+}
+.order{
+    margin-right: 30px;
+    border: 2px solid gray;
+        margin-left: 100px;
+        width: 500px;
+        padding-top: 45px;
+        padding-left: 15px;
+        margin-top: 30px;;
+        height: 700px;
+}
+.border1,.border2,.border3{
+ border: 1px solid black;
+ height: 40px;
+ width: 420px;
+ margin-top: 20px;
+ border-radius: 2px;
+ text-align: left;
+ margin-left: 40px;
+}
+.order a{
+    margin-left:20px ;
+    margin-top: 30px;
+}
+.border1{
+    margin-top: 60px;
+}
+.button1 button{
+    margin-top: 30px;
+    background-color: blueviolet;
+    border-radius: 6px;
+    color: white;
+    height: 50px;
+    width: 87%;
+    border: none;
+    transition: 0.5s all ease;
+    margin-left: -280px;
+
+} 
+.button1 button:hover{
+    box-shadow: 4px 4px 5px #333;
+    cursor: pointer;
+}
+/* end table */
+/*1fotter*/
+.t{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4;
+}
+.t ul li{
+    list-style-type: none;
+}
+.w{
+    text-align: center; 
+}
+
+.v input{
+height: 35px;
+width: 240px;
+position: absolute;
+}
+.v button{
+    position: relative;
+    left: 130px;
+    background-color: rgb(137, 28, 239);
+    color: rgb(226, 226, 226);
+    width: 115px;
+    height: 35px;
+    border: none ;
+    outline:none ;
+    transform: scale(1.0);
+    touch-action: inherit;}
+    .v button:hover{
+        transform: scale(1.1);
+        background-color: rgb(88, 14, 157);
+        
+    }
+    .v i{
+        margin-right: 15px;
+    }
+    
+    .y p{
+        text-align: center;
+       margin-bottom: 60px;
+    }
+    hr{
+        margin-top: 100px;
+    }
+   
+    /* end footer */
+
+
+
+
+       
+    
+        
+       

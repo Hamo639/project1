@@ -1,0 +1,365 @@
+/*1section*/
+.lk h3{
+    margin-left: 50px;
+    padding-top: 10px;
+    }
+    
+    h1,h2,h3,h4,h5,h6{
+        font-weight: normal;
+    }
+body{
+    overflow-x: hidden;
+    
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.b{
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+.b input[type=search]{
+    border: gray;
+    outline:  gray;
+    position: relative;
+    left: 10px;
+    width: 100px;
+    transition: all 1s ease;
+    margin-left: 5px;   
+}
+.b input[type=search]:focus{
+border: none;
+outline: none; 
+margin-left:0;  
+}
+.c p{
+    border: 3px solid black;
+    /* height: 20px; */
+    width: 100px;
+    text-align: center;
+    width: 100%;
+    color: gray;   
+}
+.d i{
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    right: 40px;
+    color: gray;
+}
+.d i:hover{
+    color: black;
+}
+/* end1section*/
+hr{
+    margin-top: 30px;
+}
+/* 2setion*/
+.e{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    align-items: baseline;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.f p:hover{
+    color: blueviolet;
+}
+
+.f select{
+    border: solid white;
+    outline: solid white;
+    background-color: white;
+    color: black;
+}
+.f select:hover{
+    color: blueviolet;
+}
+.f a{
+    color: black;
+}
+select:optional{font-weight: bold;
+}
+/*end 2section*/
+/*section3*/
+.divOne{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.divOne h4,.divOne h3{
+    font-size: medium;
+    font-weight: bold;
+}
+.divOne-price {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.divOne-title{
+    margin-left: 20px;
+}
+.divOne-title h3{
+    margin-top: 10px;
+}
+.divTwo{
+    margin-top: 20px;
+    border: 2px solid #333;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.divTwo h3,.divTwo p{
+    font-size: medium;
+    font-weight: bold;
+}
+/*end setion3*/
+/*section4*/
+
+.l{
+    width: 25%;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 2px solid gray;
+    width: 270px;
+}
+.l form{
+    line-height: 30px;
+}
+.l h3{
+margin-top: -10px;
+}
+.divTwo{
+    margin-top: 20px;
+    border: 2px solid #333;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.l p{
+    font-weight: bold;
+}
+/*end sectio4*/
+
+/* section5 */
+
+.hamo5{
+    float: inline-start;
+}
+aside {
+    display:inline-flex ;
+    flex-direction: column;
+    width: 25vw;
+    margin:20px 0 0 30px;
+}
+.shop-all{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60vw;
+  position: relative;
+    align-items: center;
+}
+.shop-all-title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.shop-all div.title{
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+    
+}
+.adham{
+    margin-left: 5px;
+}
+/* end section5 */
+/*section6*/
+.o {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+width: 60vw;
+position: relative;
+left: 100px;
+ 
+}
+.p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.p img{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    
+    background-color: white;
+}
+.hamo2{
+    position: absolute;
+    left: 600px;
+    bottom: -925px;
+    z-index: 1;
+    
+}
+.hamo2 hr{
+    background-color: blueviolet;
+    height: 2px;
+    
+}
+.hamo4{
+    box-sizing: border-box;
+    background-color: white;
+    margin-right: 20px;
+    width : 30% !important;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/*end section6*/
+/* gallary */
+.Gallary{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+  
+    margin-left: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Gallary div{
+    margin-bottom: 10px;
+}
+/* end gallary */
+/*section5*/
+.k{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    position: relative;
+    padding: 120px;
+   
+}
+.m{
+    position: relative;
+}
+.layer img {
+    vertical-align: middle;
+    transition: all 0.2s ease;
+   
+    
+} 
+.layer img:hover{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+
+}
+.mar-leit{
+margin: 0 30px;
+}
+.n{
+    
+    position: absolute;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding-left: 15px;
+    z-index: 1;
+}
+.layer{
+    overflow: hidden;
+    
+}
+
+/*end section5*/
+.hamo2{
+    position: absolute;
+    left:50%;
+    top:50px;
+    transform: translate(-50%,-50px);
+    z-index: 0;
+    height: 34px;
+    
+}
+.hamo2 hr{
+    background-color: blueviolet;
+    height: 2px;
+    width: 50px;
+    margin: auto;
+    
+}
+.hamo2 h1{
+    margin-top: 10px;
+}
+
+.special{
+    background-color: blueviolet;
+}
+/*1fotter*/
+.t{
+    display: flex;
+    justify-content: space-around;
+
+}
+.t ul li{
+    list-style-type: none;
+}
+.w{
+    text-align: center; 
+}
+
+.v input{
+height: 35px;
+width: 240px;
+position: absolute;
+}
+.v button{
+    position: relative;
+    top: 2.5px;
+    left: 130px;
+    background-color: rgb(137, 28, 239);
+    color: rgb(226, 226, 226);
+    width: 115px;
+    height: 35px;
+    border: none ;
+    outline:none ;
+    transform: scale(1.0);
+    touch-action: inherit;}
+    .v button:hover{
+        transform: scale(1.1);
+        background-color: rgb(88, 14, 157);
+        
+    }
+    .v i{
+        margin-right: 15px;
+    }
+    
+    .y p{
+        text-align: center;
+       margin-bottom: 60px;
+    }
+    /* end footer */
+    

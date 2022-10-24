@@ -1,0 +1,233 @@
+/*1section*/
+
+body{
+    overflow-x: hidden;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.b{
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+.b input[type=search]{
+    border: gray;
+    outline:  gray;
+    position: relative;
+    left: 10px;
+    width: 100px;
+    transition: all 1s ease;
+    margin-left: 5px;   
+}
+.b input[type=search]:focus{
+border: none;
+outline: none; 
+margin-left:0;  
+}
+.c p{
+    border: 3px solid black;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    width: 100%;
+    color: gray;   
+}
+.d i{
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    right: 40px;
+    color: gray;
+}
+.d i:hover{
+    color: black;
+}
+/* end1section*/
+hr{
+    margin-top: 30px;
+}
+/* 2setion*/
+.e{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.f p:hover{
+    color: blueviolet;
+}
+
+.f select{
+    border: solid white;
+    outline: solid white;
+    background-color: white;
+    color: gray;
+}
+.f select:hover{
+    color: blueviolet;
+}
+.f a{
+    color: gray;
+}
+select:optional{font-weight: bold;
+}
+/*end 2section*/
+/* section3 */
+.hamo5 {
+    
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 35px;
+    border: none ;
+    outline: 2px solid blueviolet ;
+    margin-right: -3px;
+    }
+    
+    .hamo5:hover{
+        transform: scale(0.9);
+        background-color: rgb(88, 14, 157);
+        
+    }
+  table input{
+        height: 30px;
+    }
+    table,td,th{
+        border: 1px solid rgb(220, 217, 217);
+        
+    }
+    table{
+        width: 70%;
+        height: 40vh;
+        margin: auto;
+        border-collapse: collapse;
+        margin-top: 50px;
+        border-bottom: none;
+    }
+    
+    td{
+        text-align: center;
+    }
+    thead{
+        height: 60px;
+    }
+    table button{
+        border-radius: 5px;
+    }
+    table tr>td{
+        padding: 15px;
+
+    }
+    /* end section3 */
+    /*1fotter*/
+.t{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.t ul li{
+    list-style-type: none;
+}
+.w{
+    text-align: center; 
+}
+
+.v input{
+height: 35px;
+width: 240px;
+position: absolute;
+}
+.v button{
+    position: relative;
+    top: 2.5px;
+    left: 130px;
+    background-color: rgb(137, 28, 239);
+    color: rgb(226, 226, 226);
+    width: 115px;
+    height: 35px;
+    border: none ;
+    outline:none ;
+    transform: scale(1.0);
+    touch-action: inherit;}
+    .v button:hover{
+        transform: scale(1.1);
+        background-color: rgb(88, 14, 157);
+        
+    }
+    .v i{
+        margin-right: 15px;
+    }
+    
+    
+    .y p{
+        text-align: center;
+       margin-bottom: 60px;
+    }
+    /* end footer */
+    .CartTotal div{
+        margin-left: 210px;
+    }
+    .CartTotal button{
+        margin-top: 30px;
+        background-color: blueviolet;
+        padding: 15px;
+        border-radius: 6px;
+        color: white;
+        width: 17vw;
+        height: 50px;
+        border: none;
+        margin-right: 25px;
+        transition: 0.5s all ease;
+    
+    } 
+    .CartTotal button:hover{
+        box-shadow: 4px 4px 5px #333;
+        cursor: pointer;
+    }
+    button.buttonoutline{
+background-color: white;
+outline: 2px solid blueviolet;
+color: blueviolet;
+border: none;
+height: 47px;
+    }
+    .CartTotal input{
+        width: 20vw;
+        height: 45px;
+        border-radius: 8px;
+        border: 0.5px solid black;
+        margin-right: 25px;
+    }
+    .CartTotal div button:last-child{
+        width: 13vw;
+    }
+.CartTotal{
+    position: relative;
+    margin: 150px 0;
+}
+    .CartTotal section{
+        width: 20%;
+        position: absolute;
+        right: 40px;
+         top: 0;
+    }
+    .CartTotal section h3{
+        text-align: right;
+    }
+    .CartTotal section p span{
+        margin-left: 150px;
+       
+    }
